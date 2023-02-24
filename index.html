@@ -173,14 +173,40 @@
         </main>
 
         <div class="d-flex space center" id="playbar">
-            <div class="album">
+            <div class="album d-flex space center">
+                <div class="album-image">
+                    <img src="./img/sinister.jpeg" alt="sinsteralbum">
+                </div>
+                <div class="album-descrption">
+                    <h3>Sinister</h3>
+                    <p>Brano</p>
+                </div>
+                <div class="album-icone">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-folder"></i>
+                </div>
 
             </div>
             <div class="controlli">
+                <div class="controlli-top d-flex space center text-center mrg-l50">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-rotate-right"></i>
+                </div>
+                <div class="controlli-bottom ">
+                    <span>1:00</span>
+                    <input  class="slider" type="range" min="1" max="100" value="50">
+                    <span>3:00</span>
+                </div>
 
             </div>
-            <div class="volume">
-
+            <div class="volume d-flex space center">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-desktop"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <input type="range" min="1" max="100" value="50">
             </div>
 
         </div>
