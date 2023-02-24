@@ -13,21 +13,62 @@
 </head>
 <body>
     <div class="wrapper">
+
         <main class="d-flex">
+
             <div class="main-nav">
+
+                <div class="top-nav">
+                    <div class="logo">
+                        <img src="./img/logo.svg" alt="logo-big">
+                    </div>
+                    <div class="logo-small">
+                        <img src="./img/logo-small.svg" alt="logo-small">
+                    </div>
+                    <section class="aside-nav">
+                        <ul>
+                            <li><a href="#"> <img src="./img/home.svg" alt="home">  <span>Home</span></a></li>
+                            <li><a href="#"> <img src="./img/search.svg" alt="cerca"><span>Cerca</span></a></li>
+                            <li><a href="#"> <img src="./img/libreria.svg" alt="libreria"><span>La tua libreria</span></a></li>
+                        </ul>
+                    </section>
+                    <section class="playlist pad-30">
+                        <h3 class="mrg-t10">Playlist</h3>
+                        <ul class="mrg-t10 ">
+                            <li> <div class="d-flex center"><div class="box center"><i class="mrg-t10 mrg-l10 fa-solid fa-plus"></i></div> &nbsp;  <a class=" pad-r30" href="#">Crea playlist</a> </div></li>
+                            <li><a href="#">Nome Playlist</a></li>
+                            <li><a href="#">Nome Playlist</a></li>
+                            <li><a href="#">Nome Playlist</a></li>
+                            <li><a href="#">Nome Playlist</a></li>
+                            <li><a href="#">Nome Playlist</a></li>
+                            <li><a href="#">Nome Playlist</a></li>
+                        </ul>
+                    </section>
+                </div>
+
+                <div class="bottom-nav pad-30">
+                    <div class="download">
+                        <a href="#"><i class="fa-solid fa-circle-arrow-down"></i> Installa app</a>
+                    </div>
+                    <hr>
+                    <div class="user">
+                        <h2><i class="fa-solid fa-user"></i>&nbsp; John Doe</h2>
+                    </div>
+
+                </div>
 
             </div>
 
             <div class="main-content">
 
                 <div id="call-to-action" class="d-flex just-end">
-                    <a class="btn u-text mrg-t10" href="#">Effettua l'upgrade </a>
+                    <a class="btn u-text mrg-t10 scale" href="#">Effettua l'upgrade </a>
                 </div>
 
                 <div class="main-section">
                     <nav class="u-text">
                         <ul class="d-flex inline center text-min just-center">
-                            <li class="pad-30"> <a href="#">in evidenza</a></li>
+                            <li class="pad-30 active"> <a href="#">in evidenza</a></li>
                             <li class="pad-30"> <a href="#">podcast</a></li>
                             <li class="pad-30"> <a href="#">classifiche</a></li>
                             <li class="pad-30"> <a href="#">generi e mood</a></li>
@@ -37,68 +78,88 @@
                     </nav>
                 </div>
 
-                <section class="container">
+                <section id="recent" class="container">
                     <h2>Recent Played</h2>
                     <div class="row d-flex">
                         <div class="col text-center">
-                            <img src="./img/metal_lifting.jpg" alt="metal">
+                            <div class="cover-image">
+                                <img src="./img/metal_lifting.jpg" alt="metal">
+                            </div>
                             <h3>Heavy Metal</h3>
                             <p>Subtitle</p>
                         </div>
                         <div class="col text-center">
-                            <img src="./img/stranger.jpeg" alt="stranger">
+                            <div class="cover-image">
+                                <img src="./img/stranger.jpeg" alt="stranger">
+                            </div>
                             <h3>Stranger Things. Vol.1 (a Netflix Original Series Soundtrack)</h3>
                             <p>Kyle Dixon & Micheal Stein</p>
                         </div>
                         <div class="col text-center">
-                            <img src="./img/aquietplace.jpeg" alt="quiet">
+                            <div class="cover-image">
+                                <img src="./img/aquietplace.jpeg" alt="quiet">
+                            </div>
                             <h3>A quiet place</h3>
                             <p>Subtitle</p>
                         </div>
                         <div class="col text-center">
-                            <img src="./img/split.jpeg" alt="split">
+                            <div class="cover-image">
+                                <img src="./img/split.jpeg" alt="split">
+                            </div>
                             <h3>Split</h3>
                             <p>Subtitle</p>
                         </div>
                         <div class="col text-center">
-                            <img src="./img/cure.jpeg" alt="cure">
+                            <div class="cover-image">
+                                <img src="./img/cure.jpeg" alt="cure">
+                            </div>
                             <h3>A cure for wellness</h3>
                             <p>Subtitle</p>
                         </div>
                         <div class="col text-center">
-                            <img src="./img/sinister.jpeg" alt="sinister">
+                            <div class="cover-image">
+                                <img src="./img/sinister.jpeg" alt="sinister">
+                            </div>
                             <h3>Sinister</h3>
                             <p>Subtitle</p>
                         </div>
                     </div>
                 </section>
 
-                <section class="container">
+                <section id="you" class="container">
                     <h2>Creato per John Doe</h2>
                     <p class="text-min">Più ascolti, più accurati saranno i suggerimenti</p>
                     <div class="row d-flex">
                         <div class="col text-center">
-                            <img src="./img/radar.jpeg" alt="radar">
+                            <div class="cover-image">
+                                <img src="./img/radar.jpeg" alt="radar">
+                            </div>
                             <h3>Realease Radar</h3>
                         </div>
                         <div class="col text-center">
-                            <img src="./img/mixdaily.jpeg" alt="daily">
+                            <div class="cover-image">
+                                <img src="./img/mixdaily.jpeg" alt="daily">
+                            </div>
                             <h3>Daily Mix 1</h3>
                         </div>
                     </div>
                 </section>
 
-                <section class="container">
+                <section id="popolari" class="container">
                     <h2>Artisti più popolari</h2>
                     <p class="text-min">Più ascolti, più accurati saranno i suggerimenti</p>
                     <div class="row d-flex">
                         <div class="col text-center">
-                            <img src="./img/radar.jpeg" alt="radar">
-                            <h3>Realease Radar</h3>
+                            <div class="cover-image">
+                                <img src="./img/youg.jpeg" alt="delrey">
+                            </div>
+                            <h3>Lana del Rey</h3>
                         </div>
                         <div class="col text-center">
-                            <img src="./img/mixdaily.jpeg" alt="daily">
-                            <h3>Daily Mix 1</h3>
+                            <div class="cover-image">
+                                <img src="./img/einaudi.jpeg" alt="einaudi">
+                            </div>
+                            <h3>Ludovico Einaudi</h3>
                         </div>
                     </div>
                 </section>
@@ -109,7 +170,16 @@
             </div>
         </main>
 
-        <div id="playbar">
+        <div class="d-flex space center" id="playbar">
+            <div class="album">
+
+            </div>
+            <div class="controlli">
+
+            </div>
+            <div class="volume">
+
+            </div>
 
         </div>
 
